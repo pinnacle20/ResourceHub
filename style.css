@@ -30,20 +30,24 @@
 }
 .head{
     font-weight: bold;
-    back
 }
 .mnnit{
-    height: 500px;
+    height: 700px;
     background-image: url(ss.png);
     background-size: cover;
+    /* background-repeat: no-repeat; */
     background-position:center;
     background-attachment:fixed;
 }
 
 #banner{
-    background-size: cover;
+    display: block;
     background-image: url(banner2.jpeg);
-    background-position: center;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 .dept{
