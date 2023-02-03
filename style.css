@@ -33,7 +33,7 @@
     back
 }
 .mnnit{
-    height: 70vh;
+    height: 30rem;
     background-image: url(ss.png);
     background-size: cover;
     background-position:center;
@@ -46,10 +46,6 @@
     background-position: center;
 }
 
-.card{
-    display: flex;
-}
-
 .dept{
     display: flex;
     flex-direction: row;
@@ -58,6 +54,7 @@
 }
 
 .dept > .card{
+    display: flex;
     margin: 20px;
 }
 
@@ -71,4 +68,6 @@
     width:18rem;
     height: auto;
 }
+
+
 
