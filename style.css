@@ -32,22 +32,18 @@
     font-weight: bold;
     back
 }
-
 .mnnit{
-    width: 100%;
     height: 70vh;
     background-image: url(ss.png);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     background-attachment:fixed;
 }
 
 #banner{
-    width: 100%;
+    background-size: cover;
     background-image: url(banner2.jpeg);
     background-position: center;
-    background-size: cover;
 }
 
 .card{
@@ -75,6 +71,4 @@
     width:18rem;
     height: auto;
 }
-
-
 
