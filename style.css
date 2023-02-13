@@ -6,8 +6,22 @@
     overflow-x: hidden;
 }
 
-/* Header */
+/* Resource hub animation */
+.ml11 {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 3.8em;
+}
 
+.line {
+    opacity: 0;
+    position: absolute;
+    background-color: #fff;
+}
+
+/* Hi animation */
 .header {
     display: flex;
     justify-content: center;
@@ -43,7 +57,7 @@
 .ml8 .circle {
     position: absolute;
 }
-    
+
 .ml8 .circle-dark {
     width: 1.2em;
     height: 1.2em;
@@ -62,7 +76,8 @@
     background-attachment: fixed;
 }
 
-/* department */
+/* Department */
+
 #banner {
     display: inline-block;
     /* background-image: url(banner2.jpeg); */
@@ -74,7 +89,7 @@
     width: 100%;
 }
 
-.dept{
+.dept {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -113,7 +128,8 @@
     position: relative;
     background: #333;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    padding-left: 10px;
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
@@ -134,12 +150,12 @@
 }
 
 .container .card .face.face1 .content img {
-    width: 200px;
+    width: 250px;
 }
 
 .container .card .face.face1 .content h3 {
-    margin: 10px 0 0;
-    padding: 0;
+    margin: 0px;
+    padding: 10px 0px;
     color: #fff;
     text-align: center;
     font-size: 1.5em;
@@ -151,8 +167,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    /* box-sizing: border-box; */
+    padding: 18px;
+    box-sizing: border-box;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.7);
     transform: translateY(-100px);
 }
@@ -162,16 +178,16 @@
 }
 
 .container .card .face.face2 .content p {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 10px;
 }
 
 .container .card .face.face2 .content a {
-    margin: 15px 0 0;
+    margin-left: 10px;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
-    color: #333;
+    color: white;
     padding: 5px;
     border: 1px solid #333;
 }
@@ -181,40 +197,9 @@
     color: #fff;
 }
 
-/* footer */
+/* Footer */
+
 .logo :hover {
     transform: scale(1.2);
     transition-duration: 0.5s;
 }
-
-/* -- TYPE 1 */
-.ml11 {
-    display: flex;
-    justify-content: center !important;
-    flex-wrap: wrap;
-    font-weight: 700;
-    font-size: 4em;
-}
-
-.line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    background-color: #fff;
-}
-
-/* Department */
-
-.ml4 {
-    position: absolute;
-    font-weight: 900;
-    font-size: 4.5em;
-  }
-  .ml4 .letters1 {
-    position: absolute;
-    /* margin: auto; */
-    /* left: 0; */
-    /* top: 0.3em; */
-    /* right: 0; */
-    opacity: 0; 
-  }
