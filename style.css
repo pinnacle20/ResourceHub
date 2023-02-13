@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
-}
+ }
 
 /* Resource hub animation */
 .ml11 {
@@ -81,11 +81,11 @@
 #banner {
     display: inline-block;
     /* background-image: url(banner2.jpeg); */
-    color: #333;
+    /* color: #333; */
     background-color: #333;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
     width: 100%;
 }
 
