@@ -1,95 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESOURCE HUB</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- icon -->
     <link rel="icon" href="ICON.jpg">
+    <!-- css file -->
     <link rel="stylesheet" href="style.css">
+    <!-- js file -->
+    <script src="js.js"></script>
+
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="js.js"></script>
+
+    <style>
+  
+    </style>
 
 </head>
 
 <body>
-        
-    <div class="grid" style="padding-top: 10px;">
-        <div class="line"></div>
-        <div class="name p-2 text-center ">RESOURCE HUB</div>
-        <div class="line"></div>
-    </div>
 
+
+    <div class="header" style="background-color: whitesmoke">
+        <div class="ml11">
+            <div class="letters text-center">RESOURCE HUB</div>
+        </div>
+        <div class="ml8">
+            <span class="letters-container">
+                <span class="letters letters-left" style="margin-left: -2px;">Hi!</span>
+            </span>
+            <span class="circle circle-dark"></span>
+            <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+        </div>
+    </div>
 
     <div class="mnnit"> </div>
 
-    <div class="name text-center text-black p-2" style="font-size: 34px; margin: 20px;">DEPARTMENTS</div>
+    <script>
+        var ml4 = {};
+        ml4.opacityIn = [0, 1];
+        ml4.scaleIn = [0.2, 1];
+        ml4.scaleOut = 3;
+        ml4.durationIn = 800;
+        ml4.durationOut = 600;
+        ml4.delay = 500;
+
+        // anime.timeline({ loop: true })
+            .add({
+            targets: '.ml4 .letters-1',
+            opacity: ml4.opacityIn,
+            scale: ml4.scaleIn,
+            duration: ml4.durationIn
+        }).add({
+            targets: '.ml4 .letters-1',
+            opacity: 0,
+            scale: ml4.scaleOut,
+            duration: ml4.durationOut,
+            easing: "easeInExpo",
+            delay: ml4.delay
+        })
+            .add({
+                targets: '.ml4 .letters-2',
+                opacity: ml4.opacityIn,
+                scale: ml4.scaleIn,
+                duration: ml4.durationIn
+            }).add({
+                targets: '.ml4 .letters-2',
+                opacity: 0,
+                scale: ml4.scaleOut,
+                duration: ml4.durationOut,
+                easing: "easeInExpo",
+                delay: ml4.delay
+            }).add({
+                targets: '.ml4 .letters-3',
+                opacity: ml4.opacityIn,
+                scale: ml4.scaleIn,
+                duration: ml4.durationIn
+            }).add({
+                targets: '.ml4 .letters-3',
+                opacity: 0,
+                scale: ml4.scaleOut,
+                duration: ml4.durationOut,
+                easing: "easeInExpo",
+                delay: ml4.delay
+            }).add({
+                targets: '.ml4',
+                opacity: 0,
+                duration: 500,
+                delay: 500
+            });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <div class="name text-center text-black p-2" style="font-size: 34px;">DEPARTMENTS</div>
+
+
 
     <div id="banner">
         <div class="dept">
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
+            <div class="container">
+                <div></div>
+                <div class="card" data-aos="fade-right" style="transition: all 1.5s;">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="cse.jpg" width="500px">
+                            <h3>COMPUTER SCIENCE </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                veritatis
+                                provident at.</p>
+                            <a href="#" class="btn btn-primary">Click here</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
+                <div class="card" data-aos="fade-up" style="transition: all 1.5s;">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="cse.jpg" width="500px">
+                            <h3>COMPUTER SCIENCE </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                veritatis
+                                provident at.</p>
+                            <a href="#" class="btn btn-primary">Click here</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
+                <div class="card" data-aos="fade-left" style="transition: all 1.5s;">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="cse.jpg" width="500px">
+                            <h3>COMPUTER SCIENCE </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                veritatis
+                                provident at.</p>
+                            <a href="#" class="btn btn-primary">Click here</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
+                <div class="card" data-aos="fade-down" style="transition: all 1.5s;">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="cse.jpg" width="500px">
+                            <h3>COMPUTER SCIENCE </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                veritatis
+                                provident at.</p>
+                            <a href="#" class="btn btn-primary">Click here</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
+                <div class="card" data-aos="fade-right" style="transition: all 1.5s;">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="cse.jpg" width="500px">
+                            <h3>COMPUTER SCIENCE </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                veritatis
+                                provident at.</p>
+                            <a href="#" class="btn btn-primary">Click here</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
+                <div class="card" data-aos="fade-left" style="transition: all 1.5s;">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="cse.jpg" width="500px">
+                            <h3>COMPUTER SCIENCE </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                veritatis
+                                provident at.</p>
+                            <a href="#" class="btn btn-primary">Click here</a>
+                        </div>
+                    </div>  
                 </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
-                </div>
-            </div>
-            <div class="tag card">
-                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
-                    <a href="#" class="btn btn-primary">Click here</a>
-                </div>
-            </div>
-        </div>
 
+            </div> 
+<!-- 
+            <div class="card" data-aos="fade-down" style="transition: all 1.5s;">
+                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
+                    <a href="#" class="btn btn-primary">Click here</a>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" style="transition: all 1.5s;">
+                <img class="card-img-top" src="cse.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">COMPUTER SCIENCE AND ENGINEERING</h5>
+                    <a href="#" class="btn btn-primary">Click here</a>
+                </div>
+            </div> -->
+
+        </div>
     </div>
 
     <div class="footer">
@@ -106,22 +239,36 @@
                     <div class="col-md-6 mt-md-0 mt-3">
 
                         <!-- Content -->
-                        <h5 class="title">ABOUT US</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla,
-                            nihil
-                            repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam
-                            recusandae
-                            harum esse fugiat. Itaque, culpa?</p>
+                        <div class="title">ABOUT US</div>
+                        <div id="typed-strings">
+                            <div>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente
+                                sint,
+                                nulla,
+                                nihil
+                                repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam
+                                debitis,
+                                maxime
+                                quam
+                                recusandae
+                                harum esse fugiat. Itaque, culpa?
+
+                            </div>
+                        </div>
+                        <span id="typed"></span>
 
                     </div>
                     <!-- Grid column -->
 
                     <hr class="clearfix w-100 d-md-none pb-3">
 
+
                     <!-- Grid column -->
                     <div class="col-md-6 mb-md-0 mb-3">
 
+
                         <!-- Content -->
+
                         <div class="title">CONNECT WITH US</div>
 
                         <div class="p-3">
@@ -146,33 +293,158 @@
 
         </div>
 
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © MADE BY SMP TEAM
+        <div class="text-center p-3 text-white" style="background-color: rgba(50, 4, 4, 0.843);">
+            MADE WITH &hearts; BY SMP TEAM
         </div>
         <!-- Copyright -->
     </div>
 
+    <!-- JAVASCRIPT -->
 
-<script>
-    $(document).on("scroll", function() {
-    var pageTop = $(document).scrollTop();
-    var pageBottom = pageTop + $(window).height();
-    var tags = $(".tag");
+    <!-- fadeup -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    for (var i = 0; i < tags.length; i++) {
-    var tag = tags[i];
 
-    if ($(tag).position().top < 0.85*pageBottom) {
-        $(tag).addClass("visible");
-    } 
-    // else {
-        // $(tag).removeClass("visible");
-    // }
-    }
-});
+    <!-- Automate type -->
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            loop: true,
+            typeSpeed: 30,
+        });
+    </script>
 
-</script>
-    
+
+
+    <!-- Header-->
+    <!-- Resource hub animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml11 .letters');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: false })
+
+            .add({
+                targets: '.ml11 .line2',
+                translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+                easing: "easeOutExpo",
+                duration: 700,
+                delay: 100
+            }).add({
+                targets: '.ml11 .letter',
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 600,
+                offset: '-=775',
+                delay: (el, i) => 34 * (i + 1)
+            });
+    </script>
+
+    <!-- hi animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.ml8 .circle-white',
+                scale: [0, 5],
+                opacity: [1, 0],
+                easing: "easeInOutExpo",
+                rotateZ: 360,
+                duration: 1100
+            }).add({
+                targets: '.ml8 .circle-dark',
+                scale: [0, 1],
+                duration: 1100,
+                easing: "easeOutExpo",
+                offset: '-=600'
+            }).add({
+                targets: '.ml8 .letters-left',
+                scale: [0, .7],
+                duration: 1200,
+                offset: '-=550'
+            }).add({
+                targets: '.ml8 .bang',
+                scale: [0, 1],
+                rotateZ: [45, 15],
+                duration: 1200,
+                offset: '-=1000'
+            });
+
+    </script>
+
+    <!-- Department -->
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <div style="height: 400px; background-color: wheat;">
+        <div class="ml4 text-center">
+            <div class="letters-1" class="text-center">DEPARTMENTS</div>
+            <div class="letters-2" class="text-center">COMPUTER SCIENCE</div>
+            <div class="letters-3" class="text-center">ELECTRONICS</div>
+        </div>
+    </div> -->
+  
+    <script>
+        var ml4 = {};
+        ml4.opacityIn = [0, 1];
+        ml4.scaleIn = [0.2, 1];
+        ml4.scaleOut = 3;
+        ml4.durationIn = 800;
+        ml4.durationOut = 600;
+        ml4.delay = 500;
+
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.ml4 .letters-1',
+                opacity: ml4.opacityIn,
+                scale: ml4.scaleIn,
+                duration: ml4.durationIn
+            }).add({
+                targets: '.ml4 .letters-1',
+                opacity: 0,
+                scale: ml4.scaleOut,
+                duration: ml4.durationOut,
+                easing: "easeInExpo",
+                delay: ml4.delay
+            }).add({
+                targets: '.ml4 .letters-2',
+                opacity: ml4.opacityIn,
+                scale: ml4.scaleIn,
+                duration: ml4.durationIn
+            }).add({
+                targets: '.ml4 .letters-2',
+                opacity: 0,
+                scale: ml4.scaleOut,
+                duration: ml4.durationOut,
+                easing: "easeInExpo",
+                delay: ml4.delay
+            }).add({
+                targets: '.ml4 .letters-3',
+                opacity: ml4.opacityIn,
+                scale: ml4.scaleIn,
+                duration: ml4.durationIn
+            }).add({
+                targets: '.ml4 .letters-3',
+                opacity: 0,
+                scale: ml4.scaleOut,
+                duration: ml4.durationOut,
+                easing: "easeInExpo",
+                delay: ml4.delay
+            }).add({
+                targets: '.ml4',
+                opacity: 0,
+                duration: 500,
+                delay: 500
+            });
+
+    </script>
 
 </body>
 
