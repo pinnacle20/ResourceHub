@@ -139,21 +139,21 @@
 
 .one {
     /* height: 400px; */
-    background: url('/meditate.gif');
+    background: url(meditate.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .two {
-    background: url('/code.gif');
+    background: url(code.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .three {
-    background: url('/music.gif');
+    background: url(music.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
