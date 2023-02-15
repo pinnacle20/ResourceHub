@@ -328,7 +328,9 @@
     padding: 10px 0px;
     color: #fff;
     /* text-align: center; */
-    font-size: 1.3em;
+    font-size: 1.3em;   
+    width:250px;
+
     /* font-family: cursive; */
 }
 
@@ -351,7 +353,7 @@
 .container .card .face.face2 .content p {
     margin: 0px;
     padding: 10px;
-   
+   width: 250px;
 }
 
 .container .card .face.face2 .content a {
