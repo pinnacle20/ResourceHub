@@ -330,6 +330,7 @@
     /* text-align: center; */
     font-size: 1.3em;
     font-family: cursive;
+    width:250 px;
 }
 
 .container .card .face.face2 {
@@ -351,6 +352,7 @@
 .container .card .face.face2 .content p {
     margin: 0px;
     padding: 10px;
+    width: 250px;
 }
 
 .container .card .face.face2 .content a {
@@ -368,9 +370,15 @@
     color: #fff;
 }
 
+.footer {
+    background-color: #001e2d;
+}
 /* Footer */
 
 .logo :hover {
     transform: scale(1.2);
     transition-duration: 0.5s;
+}
+.pad {
+    padding:5px;
 }
