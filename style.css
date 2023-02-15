@@ -371,10 +371,11 @@
     color: #fff;
 }
 
+/* Footer */
+
 .footer {
     background-color: #001e2d;
 }
-/* Footer */
 
 .logo :hover {
     transform: scale(1.2);
@@ -400,4 +401,3 @@
         padding: 10px;
     }
 }
-

@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Creators */
+.title {
+	height: 100px;
+	color: white;
+	background: #161616;
+	text-align: center;
+	font-size: 100px;
+	padding: 5px 10px;
+}
+
+.thanks {
+	background: #161616;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* mnnit image */
+.mnnit{
+	background: #161616;
+}
+.mnnit img{
+	width: 100%;
+	margin-top: -40px;
+	transform: scale(0.8);
+}
+
+/* Cards */
+.container,
+.body {
+	display: flex;
+	background: #0b2c3d;
+	/* background: #161616; */
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/* margin: 40px 0; */
+}
+
+.container .card {
+	position: relative;
+	width: 205px;
+	height: 320px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card:hover .content {
+	transform: translateY(-18px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* object-fit: cover; */
+}
+
+.container .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.container .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(70px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container .card:hover .sci li {
+	transform: translateY(45px);
+	opacity: 1;
+}
+
+.container .card .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+/* Social media icons */
+.fa {
+	padding: 10px;
+	font-size: 10px;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.9;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-instagram {
+	background: rgb(83, 18, 18);
+	color: white;
+}
