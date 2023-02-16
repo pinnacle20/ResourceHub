@@ -320,7 +320,7 @@
 }
 
 .container .card .face.face2 .content a {
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 10px;
     display: inline-block;
     text-decoration: none;
