@@ -5,12 +5,14 @@
 
 /* Creators */
 .title {
-	height: 100px;
+	height: 70px;
 	color: white;
-	background: #161616;
+	background: #050404;
 	text-align: center;
-	font-size: 100px;
-	padding: 5px 10px;
+	font-weight: 600;
+    font-size: 3.6em;
+	font-family: cursive;
+	padding: 0px 5px 10px 5px;
 }
 
 .thanks {
@@ -27,15 +29,33 @@
 }
 .mnnit img{
 	width: 100%;
-	margin-top: -40px;
-	transform: scale(0.8);
+	/* margin-top: -40px; */
+	transform: scale(1.0);
+}
+
+.depthead {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    overflow-x: none;
+    background-color: #001e2d;
+    padding: 10px 0 10px 0;   
+}
+.deptfont {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 2.6em;
+    font-family: cursive;
+    color: #f8f9fa;
 }
 
 /* Cards */
 .container,
 .body {
 	display: flex;
-	background: #0b2c3d;
+	background-color: #103a4f;
 	/* background: #161616; */
 	z-index: 1;
 	justify-content: center;
@@ -48,7 +68,8 @@
 	position: relative;
 	width: 205px;
 	height: 320px;
-	background: rgba(255, 255, 255, 0.05);
+	background-color:#0b2c3d;
+	
 	margin: 20px;
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
