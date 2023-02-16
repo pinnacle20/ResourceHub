@@ -147,7 +147,7 @@
 
 .one {
     /* height: 400px; */
-    background: url(/images/meditate.gif);
+    background: url(./images/meditate.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -161,7 +161,7 @@
 }
 
 .three {
-    background: url(images/music.gif);
+    background: url(./images/music.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,11 +291,8 @@
     width: 250px;
     padding: 10px 0px;
     color: #fff;
-    /* text-align: center; */
     font-size: 1.3em;   
     width:250px;
-
-    /* font-family: cursive; */
 }
 
 .container .card .face.face2 {
