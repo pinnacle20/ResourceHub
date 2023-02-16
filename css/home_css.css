@@ -1,7 +1,4 @@
 * {
-    /* margin: 0; */
-    /* padding: 0; */
-    /* font-family: 'Montserrat', sans-serif; */
     scroll-behavior: smooth;
     overflow-x: hidden;
  }
@@ -100,21 +97,9 @@
 }
 
 .wrap {
-    /* display: -webkit-box; */
-    /* display: -ms-flexbox; */
     display: flex;
-    /* -ms-flex-wrap: wrap; */
     flex-wrap: wrap;
-    /* -webkit-box-pack: center; */
-    /* -ms-flex-pack: center; */
     justify-content: center;
-    /* -webkit-box-align: center; */
-    /* -ms-flex-align: center; */
-    /* align-items: center; */
-    /* -webkit-box-orient: horizontal; */
-    /* -webkit-box-direction: normal; */
-    /* -ms-flex-direction: row; */
-    /* flex-direction: row;  */
     background-color: #103a4f;
     padding: 20px 0 20px 0;
 }
@@ -130,12 +115,6 @@
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-
-/* .box:hover {
-    margin-bottom: -10px;
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-} */
 
 .box > .name {
     color: #fff;
@@ -175,14 +154,14 @@
 }
 
 .two {
-    background: url(/images/code.gif);
+    background: url(./images/code.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .three {
-    background: url(/images/music.gif);
+    background: url(images/music.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -238,12 +217,7 @@
 
 #banner {
     display: inline-block;
-    /* background-image: url(banner2.jpeg); */
-    /* color: #333; */
     background-color: #322238;
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* background-attachment: fixed; */
     width: 100%;
 }
 
