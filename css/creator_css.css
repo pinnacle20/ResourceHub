@@ -15,6 +15,24 @@
 	padding: 0px 50px 80px 5px;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    overflow-x: none;
+    font-family: cursive;
+    background-color:#060607;
+    padding: 4px;
+}
+
+.ml11 {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 3.8em;
+    color: #f8f9fa;
+}
 .thanks {
 	background: #161616;
 	text-align: center;
@@ -114,7 +132,7 @@
 	font-weight: 500;
 	font-size: 18px;
 	text-align: center;
-	margin: 20px 0 10px;
+	margin: 15px;
 	line-height: 1.1em;
 }
 
@@ -184,4 +202,66 @@
 
 .pad {
 	padding: 5px;
+}
+
+
+@media screen and (max-width: 700px)
+{
+    .depthead {
+    
+        font-size:0.8em; 
+    }
+	.header {
+    
+        font-size:0.8em; 
+    }
+	
+}
+
+@media screen and (max-width: 500px)
+{
+    .depthead {
+    
+        font-size: 0.6em; 
+        padding: 10px;
+    }
+
+	.header {
+    
+        font-size: 0.6em; 
+        padding: 10px;
+    }
+
+	.mnnit img {
+		height: 180px;
+	}
+
+	.container1 .card {
+		
+		width: 150px;
+		height: 260px;
+		margin: 10px;
+		
+	}
+	
+	
+	.container1 .card .content .imgBx {
+		
+		width: 120px;
+		height: 120px;
+		
+	}
+	
+	.container1 .card .content .contentBx h3 {
+		
+		letter-spacing: 2px;
+		font-weight:500;
+		font-size: 16px;
+	}
+	
+	.container1 .card .content .contentBx h3 span {
+		
+		margin:5px;
+		
+	}
 }
