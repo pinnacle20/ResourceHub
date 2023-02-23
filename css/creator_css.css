@@ -242,7 +242,6 @@
 
 	}
 
-
 	.container1 .card .content .imgBx {
 
 		width: 120px;
@@ -251,14 +250,14 @@
 	}
 
 	.container1 .card .content .contentBx h3 {
-
+		text-transform: uppercase;
 		letter-spacing: 2px;
 		font-weight: 500;
 		font-size: 16px;
 	}
 
 	.container1 .card .content .contentBx h3 span {
-
+		text-transform: uppercase;
 		margin: 5px;
 	}
 }
