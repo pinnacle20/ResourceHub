@@ -64,138 +64,138 @@
     </div>
 
     <!-- Department Section -->
-    <div id="banner">
-        <div class="dept">
-            <div class="container" id="department-container">
-            </div>
+    <div class="dept">
+        <div class="container" id="department-container">
         </div>
+    </div>
 
-        <div class="footer">
+    <!-- Footer Section  -->
+    <div class="footer">
 
-            <div class="text-center text-white p-2">
+        <div class="text-center text-white p-2">
 
-                <!-- Footer Text -->
-                <div class="container-fluid text-center text-md-left p-3">
+            <!-- Footer Text -->
+            <div class="container-fluid text-center text-md-left p-3">
 
-                    <!-- Grid row -->
-                    <div class="row">
+                <!-- Grid row -->
+                <div class="row">
 
-                        <!-- Grid column -->
-                        <div class="col-md-6 mt-md-0 mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
 
-                            <!-- Content -->
-                            <div class="title">ABOUT US</div>
-                            <div id="typed-strings">
-                                <div>
-                                    No good understanding can ever be brought without skillful notes; thus, SMP
-                                    contributed as an open-source platform for archiving one of the best notes and books
-                                    for all the students of MNNIT. Resource Hub aimed at providing notes to all for
-                                    depth in understanding and bringing transparency to the concepts.
-                                </div>
+                        <!-- Content -->
+                        <div class="title">ABOUT US</div>
+                        <div id="typed-strings">
+                            <div>
+                                No good understanding can ever be brought without skillful notes; thus, SMP
+                                contributed as an open-source platform for archiving one of the best notes and books
+                                for all the students of MNNIT. Resource Hub aimed at providing notes to all for
+                                depth in understanding and bringing transparency to the concepts.
                             </div>
-                            <span id="typed"></span>
-
                         </div>
-                        <!-- Grid column -->
-
-                        <hr class="clearfix w-100 d-md-none pb-3">
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
-
-                            <div class="pad">
-                                <img src="./images/ICON.jpg" height="90px">
-                            </div>
-
-                        </div>
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
-
-                            <!-- Content -->
-
-                            <div class="title">CONNECT WITH US</div>
-
-                            <div class="p-3">
-                                <a href="https://www.facebook.com/SMPMNNIT" target="_blank"
-                                    style="text-decoration: none;" class="logo">
-                                    <img src="./images/fb.png" style="width: 100px;" alt="">
-                                </a>
-                                <a href="https://www.instagram.com/mnnit_times/" target="_blank"
-                                    style="text-decoration: none;" class="logo">
-                                    <img src="./images/ig.webp" style="width: 60px;" alt="">
-                                </a>
-                                <a href="./creator_html.html" target="_blank"
-                                    style="text-decoration: none; margin-left: 20px;" class="logo">
-                                    <img src="./images/creator.jpg" style="width: 60px; border-radius: 10%;" alt="">
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                        <!-- Grid column -->
+                        <span id="typed"></span>
 
                     </div>
-                    <!-- Grid row -->
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <div class="pad">
+                            <img src="./images/ICON.jpg" height="90px">
+                        </div>
+
+                    </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <!-- Content -->
+
+                        <div class="title">CONNECT WITH US</div>
+
+                        <div class="p-3">
+                            <a href="https://www.facebook.com/SMPMNNIT" target="_blank" style="text-decoration: none;"
+                                class="logo">
+                                <img src="./images/fb.png" style="width: 100px;" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/mnnit_times/" target="_blank"
+                                style="text-decoration: none;" class="logo">
+                                <img src="./images/ig.webp" style="width: 60px;" alt="">
+                            </a>
+                            <a href="./creator_html.html" target="_blank"
+                                style="text-decoration: none; margin-left: 20px;" class="logo">
+                                <img src="./images/creator.jpg" style="width: 60px; border-radius: 10%;" alt="">
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Grid column -->
+
                 </div>
-
-            </div>
-            <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.843);">
-                MADE WITH &hearts; ---- TEAM SMP
+                <!-- Grid row -->
             </div>
 
-            <!-- Copyright -->
+        </div>
+        <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.843);">
+            MADE WITH &hearts; ---- TEAM SMP
         </div>
 
+        <!-- Copyright -->
+    </div>
 
-        <!-- JAVASCRIPT -->
 
-        <!-- Department Section -->
-        <script src="./js/home_js.js"></script>
+    <!-- JAVASCRIPT -->
 
-        <!-- Footer Section -->
-        <!-- fadeup -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-        <script>
-            AOS.init();
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Header Section-->
+    <!-- resource hub animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml11 .letters');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
-        <!-- Automate type -->
-        <script>
-            var typed = new Typed('#typed', {
-                stringsElement: '#typed-strings',
-                loop: true,
-                typeSpeed: 30,
+        anime.timeline({ loop: false })
+            .add({
+                targets: '.ml11 .line2',
+                translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+                easing: "easeOutExpo",
+                duration: 700,
+                delay: 100
+            }).add({
+                targets: '.ml11 .letter',
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 600,
+                offset: '-=775',
+                delay: (el, i) => 34 * (i + 1)
             });
-        </script>
+    </script>
 
-        <!-- Header Section-->
-        <!-- Resource hub animation -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script>
-            // Wrap every letter in a span
-            var textWrapper = document.querySelector('.ml11 .letters');
-            textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+    <!-- Department Section -->
+    <script src="./js/home_js.js"></script>
 
-            anime.timeline({ loop: false })
-                .add({
-                    targets: '.ml11 .line2',
-                    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
-                    easing: "easeOutExpo",
-                    duration: 700,
-                    delay: 100
-                }).add({
-                    targets: '.ml11 .letter',
-                    opacity: [0, 1],
-                    easing: "easeOutExpo",
-                    duration: 600,
-                    offset: '-=775',
-                    delay: (el, i) => 34 * (i + 1)
-                });
-        </script>
+    <!-- Footer Section -->
+    <!-- fadeup -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- automate type -->
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            loop: true,
+            typeSpeed: 30,
+        });
+    </script>
 
 </body>
 
