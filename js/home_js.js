@@ -5,7 +5,7 @@ const departmentDetails = [
     name: "First Year",
     image: "./images/first.jpg",
     description: "Baitho beta abhi bahot kuch seekhna baaki hai Jeevan me..",
-    animation:"fade-right",
+    animation: "fade-right",
     link1: "http://paperfactorymnnit.pythonanywhere.com/",
     link2:
       "https://drive.google.com/drive/folders/1-2Ecfzlgj5Kr260HKx1B8pgCDtWbiDhF",
@@ -15,7 +15,7 @@ const departmentDetails = [
     image: "./images/cse (4).jpg",
     description:
       "Abundance of DSA on the internet, now abundance of academic resources on this Page.",
-    animation:"fade-up",
+    animation: "fade-up",
     link1:
       "https://drive.google.com/drive/u/1/folders/1MLMiaW0vq0K0lWtUakqLNXjBIfSa9Nw0",
   },
@@ -24,14 +24,14 @@ const departmentDetails = [
     image: "./images/ece.jpg",
     description:
       "Hardwork amplified and concepts doped. And this leads to saturation of success.",
-      animation:"fade-left",
+    animation: "fade-left",
     link1:
       "https://drive.google.com/drive/folders/16g1SvodQLuXZknBlNXjVJXmBMUkcmZ8V",
   },
   {
     name: "Electrical Engineering",
     image: "./images/electrical.jpg",
-    animation:"fade-left",
+    animation: "fade-left",
     description:
       "Electrifying the academics with least resistance and conducting knowledge through wires of SMP Resources..",
     link1:
@@ -40,7 +40,7 @@ const departmentDetails = [
   {
     name: "Civil Engineering",
     image: "./images/civil.jpg",
-    animation:"fade-down",
+    animation: "fade-down",
     description:
       "Survey fields, not the internet for notes. Here's your one stop destination for all civil resources-SMP Resource Hub",
     link1:
@@ -49,7 +49,7 @@ const departmentDetails = [
   {
     name: "Mechanical Engineering",
     image: "./images/mech.jpg",
-    animation:"fade-right",
+    animation: "fade-right",
     description:
       "Use the SMP Resource Hub to study the inner-workings of our world with less power and maximum efficiency",
     link1:
@@ -58,7 +58,7 @@ const departmentDetails = [
   {
     name: "Chemical Engineering",
     image: "./images/chemical.jpg",
-    animation:"fade-down",
+    animation: "fade-down",
     description:
       "Hard time finding the notes? We have the 'solution' to keep you in 'equilibrium'.",
     link1:
@@ -67,7 +67,7 @@ const departmentDetails = [
   {
     name: "Biotechnology",
     image: "./images/biotech.jpg",
-    animation:"fade-up",
+    animation: "fade-up",
     description:
       "Resources so concise and complete that it would never 'cell' you out..",
     link1:
@@ -76,7 +76,7 @@ const departmentDetails = [
   {
     name: "Production & Industrial Engineering",
     image: "./images/pie.jpg",
-    animation:"fade-down",
+    animation: "fade-down",
     description:
       "Use the SMP Resource Hub to study the inner-workings of our world with less power and maximum efficiency",
     link1:
@@ -85,14 +85,14 @@ const departmentDetails = [
   {
     name: "Final Year Open Electives",
     image: "./images/final.jpg",
-    animation:"fade-left",
+    animation: "fade-left",
     description: "Finally you came to this.. Let's end this sem with a Bang !!",
     link1: "#",
   },
   {
     name: "Internship & Placement Preparation",
     image: "./images/intern.jpg",
-    animation:"fade-right",
+    animation: "fade-right",
     description:
       "Naukari ke bina kuch nahi hai Beta !! Abhi bhi time hai padh lo..",
     link1: "#",
