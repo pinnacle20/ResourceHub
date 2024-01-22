@@ -23,13 +23,12 @@
 
 <body>
 
-
+    <!-- Header Section -->
     <div class="header">
         <div class="ml11">
             <div class="letters text-center">RESOURCE HUB</div>
         </div>
     </div>
-
 
     <!-- SMP Animation -->
     <!-- <div class="conatiner">
@@ -56,18 +55,20 @@
     </div> -->
 
     <div class="mnnit">
-		<img src="./images/b9.jpg" alt="image">
-	</div>
+        <img src="./images/b9.jpg" alt="image">
+    </div>
     <div class="depthead">
         <div class="deptfont">
             <div class="letters text-center">DEPARTMENTS</div>
         </div>
     </div>
 
+    <!-- Department Section -->
     <div id="banner">
         <div class="dept">
-            <div class="container">
-                <div class="card" data-aos="fade-right" style="transition: all 1.5s;">
+            <div class="container" id="department-container">
+
+                <!-- <div class="card" data-aos="fade-right" style="transition: all 1.5s;">
                     <div class="face face1">
                         <div class="content">
                             <img src="./images/first.jpg" height="120px">
@@ -77,12 +78,15 @@
                     <div class="face face2">
                         <div class="content">
                             <p>Baitho beta abhi bahot kuch seekhna baaki hai Jeevan me.. </p>
-                            <a href="http://paperfactorymnnit.pythonanywhere.com/" class="btn btn-primary">Click here (Paper Factory)</a> <br>
-                            <a href="https://drive.google.com/drive/folders/1-2Ecfzlgj5Kr260HKx1B8pgCDtWbiDhF" class="btn btn-primary">Click here (New)</a>
+                            <a href="http://paperfactorymnnit.pythonanywhere.com/" class="btn btn-primary">Click here
+                                (Paper Factory)</a> <br>
+                            <a href="https://drive.google.com/drive/folders/1-2Ecfzlgj5Kr260HKx1B8pgCDtWbiDhF"
+                                class="btn btn-primary">Click here (New)</a>
                         </div>
                     </div>
-                </div>
-                <div class="card" data-aos="fade-up" style="transition: all 1.5s;">
+                </div> -->
+
+                <!-- <div class="card" data-aos="fade-up" style="transition: all 1.5s;">
                     <div class="face face1">
                         <div class="content">
                             <img src="./images/cse (4).jpg" height="120px">
@@ -97,6 +101,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card" data-aos="fade-left" style="transition: all 1.5s;">
                     <div class="face face1">
                         <div class="content">
@@ -235,7 +240,8 @@
                             <a href="#" class="btn btn-primary">Click here</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
             </div>
         </div>
 
@@ -317,8 +323,12 @@
             <!-- Copyright -->
         </div>
 
+
         <!-- JAVASCRIPT -->
 
+        <!-- Department Section -->
+        <script src="./js/home_js.js"></script>
+        
         <!-- fadeup -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -326,7 +336,6 @@
             AOS.init();
         </script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
 
         <!-- Automate type -->
         <script>
@@ -337,8 +346,6 @@
             });
         </script>
 
-
-
         <!-- Header-->
         <!-- Resource hub animation -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -348,7 +355,6 @@
             textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
             anime.timeline({ loop: false })
-
                 .add({
                     targets: '.ml11 .line2',
                     translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
@@ -363,38 +369,6 @@
                     offset: '-=775',
                     delay: (el, i) => 34 * (i + 1)
                 });
-        </script>
-
-        <!-- hi animation -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script>
-            anime.timeline({ loop: true })
-                .add({
-                    targets: '.ml8 .circle-white',
-                    scale: [0, 5],
-                    opacity: [1, 0],
-                    easing: "easeInOutExpo",
-                    rotateZ: 360,
-                    duration: 1100
-                }).add({
-                    targets: '.ml8 .circle-dark',
-                    scale: [0, 1],
-                    duration: 1100,
-                    easing: "easeOutExpo",
-                    offset: '-=600'
-                }).add({
-                    targets: '.ml8 .letters-left',
-                    scale: [0, .7],
-                    duration: 1200,
-                    offset: '-=550'
-                }).add({
-                    targets: '.ml8 .bang',
-                    scale: [0, 1],
-                    rotateZ: [45, 15],
-                    duration: 1200,
-                    offset: '-=1000'
-                });
-
         </script>
 
 </body>
