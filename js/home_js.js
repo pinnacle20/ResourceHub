@@ -1,4 +1,4 @@
-// <!-- Department Section -->
+//  Department Section
 // Array of departments with their details
 const departmentDetails = [
   {
