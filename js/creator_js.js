@@ -1,5 +1,22 @@
 const creatorsData = [
   {
+    name: "VAIBHAV AGRAWAL",
+    branch: "CIVIL",
+    rollNumber: "20191035",
+    linkedin: "https://www.linkedin.com/in/vaibhavmnnit/",
+    image: "./images/creators/Vaibhav.jpg",
+  },
+  {
+    name: "SHIVANAND",
+    branch: "IT",
+    rollNumber: "20208118",
+    linkedin: "https://www.linkedin.com/in/shivanand07/",
+    image: "./images/creators/Shivanand.jpg",
+  }
+];
+
+const contributorsData = [
+  {
     name: "SHRADHEY PATHAK",
     branch: "IT",
     rollNumber: "20198111",
@@ -211,10 +228,14 @@ const creatorsData = [
 ];
 
 // Get the container to append creator cards
-const creatorsContainer = document.getElementById("container11");
+const creatorsContainer = document.getElementById("container10");
+
+// Get the container to append contributor cards
+const contributorsContainer = document.getElementById("container11");
+
 
 // Function to create creator cards dynamically
-function createCreatorCard(creator) {
+function createCard(creator) {
   return `
         <div class="card">
             <div class="content">
@@ -234,8 +255,16 @@ function createCreatorCard(creator) {
     `;
 }
 
+
 // Loop through the creators and append cards to the container
 creatorsData.forEach((creator) => {
-  const creatorCard = createCreatorCard(creator);
+  const creatorCard = createCard(creator);
   creatorsContainer.innerHTML += creatorCard;
 });
+
+// Loop through the contributor and append cards to the container
+contributorsData.forEach((contributor) => {
+  const contributorCard = createCard(contributor);
+  contributorsContainer.innerHTML += contributorCard;
+});
+
