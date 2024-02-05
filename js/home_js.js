@@ -87,16 +87,16 @@ const departmentDetails = [
     image: "./images/final.jpg",
     animation: "fade-left",
     description: "Finally you came to this.. Let's end this sem with a Bang !!",
-    link1: "#",
+    link1: "https://drive.google.com/drive/u/5/folders/1x534EdiyftOrjEb_KYeMXazxbvi7Qlkw",
   },
-  {
-    name: "Internship & Placement Preparation",
-    image: "./images/intern.jpg",
-    animation: "fade-right",
-    description:
-      "Naukari ke bina kuch nahi hai Beta !! Abhi bhi time hai padh lo..",
-    link1: "#",
-  },
+  // {
+  //   name: "Internship & Placement Preparation",
+  //   image: "./images/intern.jpg",
+  //   animation: "fade-right",
+  //   description:
+  //     "Naukari ke bina kuch nahi hai Beta !! Abhi bhi time hai padh lo..",
+  //   link1: "#",
+  // },
 ];
 
 // Function to create department cards dynamically
