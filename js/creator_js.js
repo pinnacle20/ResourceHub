@@ -226,6 +226,14 @@ const contributorsData = [
     linkedin: "https://www.linkedin.com/in/shashwat13g/",
     image: "./images/creators/IMG-20230210-WA0020 - Shashwat Gupta.jpg",
   },
+  {
+    name: "Mohd Bilal",
+    branch: "CHE",
+    rollNumber: "20218010",
+    linkedin: "https://www.linkedin.com/in/mohdbilal82/",
+    image: "./images/creators/mohd_bilal.png",
+  },
+  
   
 ];
 
