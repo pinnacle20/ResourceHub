@@ -233,6 +233,16 @@ const contributorsData = [
     linkedin: "https://www.linkedin.com/in/mohdbilal82/",
     image: "./images/creators/mohd_bilal.png",
   },
+  {
+
+    name: "Adya Agarwal",
+    branch: "CSE",
+    rollNumber: "20214212",
+    linkedin: "https://www.linkedin.com/in/adya-agarwal16/",
+    image: "./images/creators/adya_agarwal.jpeg",
+    
+    }
+
   
   
 ];
