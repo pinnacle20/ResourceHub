@@ -241,6 +241,15 @@ const contributorsData = [
     linkedin: "https://www.linkedin.com/in/adya-agarwal16/",
     image: "./images/creators/adya_agarwal.jpeg",
     
+    },
+  {
+
+    name: "Bhanu Pratap Singh",
+    branch: "Biotech",
+    rollNumber: "20210010",
+    linkedin: "www.linkedin.com/in/bpsingh29/",
+    image: "./images/creators/bhanu_pratap.jpeg",
+    
     }
 
   
