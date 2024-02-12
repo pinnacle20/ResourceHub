@@ -250,9 +250,16 @@ const contributorsData = [
     linkedin: "www.linkedin.com/in/bpsingh29/",
     image: "./images/creators/bhanu_pratap.jpeg",
     
-    }
+    },
+   {
 
-  
+    name: "Gourav Garg",
+    branch: "CSE",
+    rollNumber: "20214003",
+    linkedin: "https://www.linkedin.com/in/gouravgarg9/",
+    image: "./images/creators/gouravgarg.jpeg",
+    
+    }
   
 ];
 
